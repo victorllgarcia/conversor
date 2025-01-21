@@ -8,7 +8,7 @@ import com.google.gson.JsonParser;
 
 public class Conversor {
 
-    private static final String API_KEY = "85d1544ee7e86bb1a5d4ebd2";
+    private static final String API_KEY = "COLOQUE-SUA-CHAVE-API-AQUI";
 
     public static double obterTaxaCambio(String moedaBase, String moedaAlvo) {
         String endpoint = String.format("https://v6.exchangerate-api.com/v6/%s/latest/%s", API_KEY, moedaBase);
